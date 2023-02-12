@@ -6,7 +6,7 @@ The structure of the code follows closely to the scikit-learn style, but still t
 differences in the estimator/metrics API (e.g. `fit()` method takes three arguments `X`, `y`,
 and `qid` rather than just two).
 
-Four ranking metrics are implemented: P@k, AP, DCG, and nDCG
+Four ranking metrics are implemented: P@k, AP, DCG@k, and nDCG@k
 (in both `trec_eval` and Burges et al. versions). 
 
 ## Dependencies
